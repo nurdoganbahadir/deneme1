@@ -50,5 +50,24 @@ if (weather === "yağmurlu"){
 } else if(weather === "karlı"){
     console.log("Mont giyin");
 } else {
-    console.log("Siz bilirsiniz");
+    console.log("Hava durumunu kontrol edin!");
+}
+
+/* Example-4
+Kullanıcı adı ve şifreye göre giriş kontrolü yapan bir if-else yapısı yazın.
+Kullanıcı adı "admin" ve şifre "1234" ise "Giriş başarılı", değilse "Giriş başarısız" yazdırın.
+const username = "admin"; Bu değeri farklı kullanıcı adlarıyla değiştirerek test edin.
+const password = "1234"; Bu değeri farklı şifrelerle değiştirerek test edin. */
+
+const username = "admin";
+const password = "1234";
+
+if(username === "admin"){
+    if(password==="1234"){
+        console.log("Giriş başarılı");
+    } else{
+        console.log("Şifreniz yanlış");
+    }
+} else{
+    console.log("Giriş başarısız");
 }
