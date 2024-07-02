@@ -71,3 +71,22 @@ if(username === "admin"){
 } else{
     console.log("Giriş başarısız");
 }
+
+/* Example-5
+Bir ürün fiyatına ve indirim koduna göre indirimli fiyatı hesaplayan bir if-else yapısı yazın.
+Eğer indirim kodu "DISCOUNT10" ise %10 indirim, "DISCOUNT20" ise %20 indirim, "DISCOUNT30" ise %30 indirim uygulayın. 
+Geçersiz indirim kodu ise "Geçersiz indirim kodu" yazdırın. */
+
+const price = 100;
+
+saleCode = prompt("İndirim kodunuz")
+
+if (saleCode === "DISCOUNT10"){
+    console.log(price*0.9);
+} else if (saleCode === "DISCOUNT20"){
+    console.log(price * 0.8);
+} else if (saleCode === "DISCOUNT30"){
+    console.log(price * 0.7);
+} else{
+    console.log("Geçersiz indirim kodu girdiniz");
+}
