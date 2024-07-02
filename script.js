@@ -34,3 +34,21 @@ if (age >=18) {
 } else{
     console.log("Giriş yapamazsınız.");
 }
+
+/* Example-3
+Hava durumuna göre kıyafet önerisi veren bir if-else yapısı yazın.
+Hava durumu "güneşli" ise "T-shirt giyin", "yağmurlu" ise "Şemsiye alın", "karlı" ise "Mont giyin" yazdırın. 
+Diğer durumlar için "Hava durumunu kontrol edin" yazdırın.
+const weather = "yağmurlu";  Bu değeri farklı hava durumlarıyla değiştirerek test edin. */
+
+const weather = "karlı";
+
+if (weather === "yağmurlu"){
+    console.log("Şemsiye alın");
+} else if (weather === "güneşli"){
+    console.log("T-shirt giyin");
+} else if(weather === "karlı"){
+    console.log("Mont giyin");
+} else {
+    console.log("Siz bilirsiniz");
+}
