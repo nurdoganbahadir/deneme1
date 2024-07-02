@@ -1,3 +1,9 @@
+/* Example-1
+Aşağıdaki kriterlere göre 400 km mesafedeki bir gönderi için nakliye ücreti ne kadar olur?
+0-500 km: 50 TL
+501-999 km: 100 TL
+1000+ km: 500 TL */
+
 const mesafe = 400;
 
 const durum =
