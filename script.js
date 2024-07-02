@@ -15,3 +15,22 @@ const durum =
     ? "Nakliye ücreti 500TL"
     : "Yanlış değer girdiniz";
 console.log(durum);
+
+/* Examle-2
+Kullanıcının yaşına ve üyelik durumuna göre farklı mesajlar veren bir if-else yapısı yazın.
+Kullanıcının yaşı 18'den büyükse ve VIP üyesi ise "Hoşgeldiniz, VIP Üye" yazdırın.
+Yaşı 18'den büyükse ve normal üye ise "Hoşgeldiniz" yazdırın.
+Yaşı 18 veya daha küçükse "Giriş yapamazsınız" yazdırın. */
+
+const age = 20;
+const isVIP = true;
+
+if (age >=18) {
+    if(isVIP === true){
+        console.log("Hoşgeldiniz, VIP Üye");
+    } else{
+        console.log("Hoşgeldiniz");
+    }
+} else{
+    console.log("Giriş yapamazsınız.");
+}
